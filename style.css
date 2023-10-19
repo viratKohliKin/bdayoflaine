@@ -169,7 +169,7 @@ section h1{
 }
 
 .photo.us{
-   background: url('Image/Halloween.JPG') center center;
+   background: url('Image/Halloween.jpg') center center;
    /* background: url(Image/red.jpg) center center no-repeat; */
    background-position: center;
    background-size: cover;
