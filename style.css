@@ -149,7 +149,7 @@ section h1{
 }
 
 .photo.years{
-   background: url('Image/Baby.jpg') center center no-repeat;
+   background: url('Image/Baby.jpg') center center;
    /* background: url(Image/blue.png) center center no-repeat; */
    background-position: center;
    background-size: cover;
