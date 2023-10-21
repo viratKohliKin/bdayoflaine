@@ -13,6 +13,10 @@
     <title>It's Sanj's Birthday</title>
 </head>
 <body>
+    <audio id="loopingAudio" loop>
+        <source src="index.mp3" type="audio/mp3">
+        .
+      </audio>
 
     <div class="intro">
         <div class="row" style="padding-top: 275px;">
@@ -48,5 +52,17 @@
     </div>
 
     <script src="main.js"></script>
+    <script>
+    // Get the audio element
+    const audio = document.getElementById('loopingAudio');
+
+    // Function to play the audio
+    function playAudio() {
+      audio.play();
+    }
+
+    // Add an event listener to the body (you can change this to any other element)
+    document.body.addEventListener('click', playAudio);
+  </script>
 </body>
 </html>
