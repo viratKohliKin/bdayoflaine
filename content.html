@@ -20,6 +20,10 @@
     <title>Laine Bday</title>
   </head>
   <body>
+    <audio id="loopingAudio" loop>
+        <source src="content.mp3" type="audio/mp3">
+        .
+      </audio>
     <nav class="navbar navbar-default fixed-top navbar-expand-md navbar-dark">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -1123,5 +1127,17 @@ Happy birthday macha🥳🥳🥳💗💗💖💖💖💕💓💞💌💌💌 lov
         reset: true,
       });
     </script>
+    <script>
+    // Get the audio element
+    const audio = document.getElementById('loopingAudio');
+
+    // Function to play the audio
+    function playAudio() {
+      audio.play();
+    }
+
+    // Add an event listener to the body (you can change this to any other element)
+    document.body.addEventListener('click', playAudio);
+  </script>
   </body>
 </html>
